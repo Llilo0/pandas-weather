@@ -1,6 +1,3 @@
-# z pliku config.py zaimportuj Settings
-from http.client import responses
-
 from config import Settings
 import requests
 from datetime import datetime
