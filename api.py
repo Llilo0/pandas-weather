@@ -17,10 +17,10 @@ def fetch_weather ():
             "Odczuwalna": temp_converter(weather["main"]["feels_like"]),
             "Ciśnienie": weather["main"]["pressure"],
             "Wilgotność": weather["main"]["humidity"],
-            "Zwykla temperatura": temp_converter(weather["main"]["temp"]),
+            "Zwykła temperatura": temp_converter(weather["main"]["temp"]),
             "Opis pogody": weather["weather"][0]["description"],
             "Miejsce": weather["name"],
-            "Prędkosc wiatru": wind_speed(weather["wind"]["speed"]),
+            "Prędkość wiatru": wind_speed(weather["wind"]["speed"]),
             "Data pomiaru": datetime.now()
         }
 
